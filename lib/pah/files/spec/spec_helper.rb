@@ -11,7 +11,6 @@ ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
 require 'rspec/autorun'
-require "email_spec"
 
 # Requires supporting ruby files with custom matchers and macros, etc,
 # in spec/support/ and its subdirectories.
@@ -43,8 +42,6 @@ RSpec.configure do |config|
   config.render_views
   config.treat_symbols_as_metadata_keys_with_true_values = true
   config.include FactoryGirl::Syntax::Methods
-  config.include EmailSpec::Helpers
-  config.include EmailSpec::Matchers
 
   # If true, the base class of anonymous controllers will be inferred
   # automatically. This will be the default behavior in future versions of
