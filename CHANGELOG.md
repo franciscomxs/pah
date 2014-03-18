@@ -37,6 +37,7 @@
 - Add quiet_assets gem
 - Set ruby 2.1.1 as default
 - Add custom error pages
+- Removed gems: `vcr`, `webmock`
 
 ### bug fixes
 
