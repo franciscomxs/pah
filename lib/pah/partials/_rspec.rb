@@ -8,7 +8,6 @@ copy_static_file 'spec/spec_helper.rb'
   matchers.rb
   suppress_log.rb
   uploaded_file.rb
-  vcr.rb
   }.each do |component|
   copy_static_file "spec/support/#{component}"
 end
