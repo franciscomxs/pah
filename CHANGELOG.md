@@ -55,6 +55,7 @@
 - Add custom error pages
 - Update jumpup.rake to comply jumpup gem.
 - Remove `deferred_garbage_collection.rb`.
+- Update rails version to 4.1.0
 
 ### bug fixes
 
