@@ -9,6 +9,8 @@
 
 ### improvements
 
+- Changed Ruby version to 2.2.0
+- Changed Rails version to 4.2.0
 - Update the bitters and refills gems
 - Remove old spec/support files
 - Remove acceptance test example
